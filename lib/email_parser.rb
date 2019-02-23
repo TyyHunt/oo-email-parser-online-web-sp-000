@@ -11,7 +11,8 @@ class EmailParser
   end
 
   def parse
-    @emails.split(/[, ]/).collect
+    email_array = []
+    email_array << @emails.split(/[, ]/)
   end
 
 end
